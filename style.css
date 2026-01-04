@@ -21,12 +21,14 @@
    padding: 20px;
  }
 
- .picture > img {
+.picture > img {
     width: 150px;
     height: 150px;
     border: 3px solid white;
     border-radius: 100%;
- }
+    object-fit: cover; 
+    background-color: red; 
+}
 
  .picture > a {
     text-decoration: none;
@@ -88,3 +90,4 @@
     font-family: 'comic sans ms', sans-serif;
     font-size: 15px;
  }
+
